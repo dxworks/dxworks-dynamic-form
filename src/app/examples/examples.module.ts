@@ -3,6 +3,7 @@ import {ProvidersModule} from '../providers/providers.module';
 import {MaterialModule} from '../material.module';
 import {ExamplePageComponent} from './example-page/example-page.component';
 import {ComponentsModule} from '../components/components.module';
+import {CommonModule} from '@angular/common';
 
 const components = [
   ExamplePageComponent
@@ -12,7 +13,8 @@ const components = [
   imports: [
     ProvidersModule,
     MaterialModule,
-    ComponentsModule
+    ComponentsModule,
+    CommonModule
   ],
   exports: [
   ],
