@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import {ReactiveFormsModule} from '@angular/forms';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {ExamplePageComponent} from './example-page/example-page.component';
+import {ProvidersModule} from './providers/providers.module';
+import {DxworksDynamicFormModule} from '../../../dxworks-dynamic-form/src';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import {ExamplePageComponent} from './example-page/example-page.component';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ProvidersModule,
+    ReactiveFormsModule,
+    DxworksDynamicFormModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
