@@ -1,0 +1,6 @@
+<div>
+  <h2>Example form</h2>
+  <div  *ngIf="questions$ | async as questions">
+    <dxf-dynamic-form [questions]="questions"></dxf-dynamic-form>
+  </div>
+</div>

@@ -6,8 +6,8 @@
     "types": []
   },
   "files": [
-    "src/main.ts",
-    "src/polyfills.ts"
+    "projects/dynamic-forms-example/src/main.ts",
+    "projects/dynamic-forms-example/src/polyfills.ts"
   ],
   "include": [
     "src/**/*.d.ts"

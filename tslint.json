@@ -19,13 +19,13 @@
     "directive-selector": [
       true,
       "attribute",
-      "adf",
+      "dxf",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "adf",
+      "dxf",
       "kebab-case"
     ],
     "eofline": true,

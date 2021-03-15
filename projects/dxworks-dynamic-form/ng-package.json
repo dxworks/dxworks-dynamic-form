@@ -1,0 +1,7 @@
+{
+  "$schema": "../../node_modules/ng-package/ng-package.schema.json",
+  "dest": "../../dist/dxworks-dynamic-form",
+  "lib": {
+    "entryFile": "src/index.ts"
+  }
+}
